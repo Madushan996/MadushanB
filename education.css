@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .education {
+    padding: 3rem;
+  }
+  
+  .education h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .education-item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .education-image {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .education-image img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .education-content {
+    flex: 2;
+    padding: 2rem;
+  }
+  
+  .education-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education-content h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subject-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .subject-table th,
+  .subject-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .subject-table th {
+    text-align: left;
+    background-color: #f4f4f4;
+  }
+  
+  .subject-table ul {
+    list-style-type: none;
+    padding-left: 1rem;
+  }
+  
+  .subject-table ul li {
+    margin-bottom: 0.5rem;
+  }

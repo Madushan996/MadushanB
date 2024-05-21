@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .experience {
+    padding: 3rem;
+  }
+  
+  .experience h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .experience-item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .experience-image {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .experience-image img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .experience-content {
+    flex: 2;
+    padding: 2rem;
+  }
+  
+  .experience-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-content p {
+    margin-bottom: 1rem;
+  }
+  
+  .experience-content ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .experience-content ul li {
+    margin-bottom: 0.5rem;
+  }
