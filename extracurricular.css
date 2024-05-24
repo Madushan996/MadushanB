@@ -54,9 +54,20 @@
     flex: 1;
   }
   
-  .activity-image img {
-      width: 1600px; /* Set the desired width */
-      height: 1050px; /* Set the desired height */
+  .activity-image1 img {
+      width: 900px; /* Set the desired width */
+      height: 600px; /* Set the desired height */
+      object-fit: cover; /* This will crop the image to fit the specified dimensions */
+  }
+.activity-image2 img {
+      width: 900px; /* Set the desired width */
+      height: 600px; /* Set the desired height */
+      object-fit: cover; /* This will crop the image to fit the specified dimensions */
+  }
+
+.activity-image3 img {
+      width: 630px; /* Set the desired width */
+      height: 850px; /* Set the desired height */
       object-fit: cover; /* This will crop the image to fit the specified dimensions */
   }
   
