@@ -52,7 +52,7 @@
   
   
 
-.project-images {
+ .project-images img {
   width: 960px; /* Set the desired width */
   height: 960px; /* Set the desired height */
   object-fit: cover; /* This will crop the image to fit the specified dimensions */
