@@ -50,21 +50,15 @@
     margin-bottom: 2rem;
   }
   
-  .project-images {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
-  }
   
-  .project-images img {
-    width: 30%;
-    height: 150px;
-    object-fit: cover;
-    margin: 0.5rem;
-    border-radius: 8px;
-  }
+
+.project-images {
+  width: 960px; /* Set the desired width */
+  height: 960px; /* Set the desired height */
+  object-fit: cover; /* This will crop the image to fit the specified dimensions */
+}
+  
+  
   
   .project-content {
     flex: 1;
